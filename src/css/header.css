@@ -1,8 +1,29 @@
-* {
-    margin: 0;
+@font-face {
+    font-family: "Druk Cond Super";
+    src: url("../fonts/Druk_Cond_Super.otf");
 }
 
 header {
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 120px;
+    border-bottom: solid 1px #D8D8D8;
+}
+
+.header_container {
+    width: 1333px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Druk Cond Super", "Arial";
+    font-size: 80px;
+}
+
+.nice_beer {
+ font-size: 50px;
 }
