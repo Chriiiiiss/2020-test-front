@@ -1,0 +1,35 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 120px;
+    background-color: #fff;
+    border-top: solid 1px #D8D8D8;
+}
+
+.footer_container {
+    width: 1333px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.footer_cheers {
+    font-family: "Helvetica Neue Bold", "Druk Wide Super", "Arial";
+    font-size: 20px;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+.footer_right_title {
+    font-family: "Helvetica Neue Light", "Druk Cond Super", "Arial";
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    pointer-events: none;
+}

@@ -3,11 +3,32 @@
     src: url("../fonts/Druk_Cond_Super.otf");
 }
 
+@font-face {
+    font-family: "Druk Wide Super";
+    src: url("../fonts/Druk_Wide_Super.otf");
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/Helvetica_Neue.otf");
+}
+
+@font-face {
+    font-family: "Helvetica Neue Bold";
+    src: url("../fonts/Helvetica_Neue_Bold.otf");
+}
+
+@font-face {
+    font-family: "Helvetica Neue Light";
+    src: url("../fonts/Helvetica_Neue_Light.otf");
+}
+    
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 120px;
+    background-color: #fff;
     border-bottom: solid 1px #D8D8D8;
 }
 
@@ -22,8 +43,10 @@ header {
 .logo {
     font-family: "Druk Cond Super", "Arial";
     font-size: 80px;
+    pointer-events: none;
 }
 
 .nice_beer {
  font-size: 50px;
+ pointer-events: none;
 }

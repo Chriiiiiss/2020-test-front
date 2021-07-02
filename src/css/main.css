@@ -1,0 +1,16 @@
+.bg {
+    width: 100vw;
+    position: absolute;
+    top: -35vh;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.bg_beer {
+    font-size: 884px;
+    font-family: "Druk Wide Super";
+    writing-mode: vertical-lr;
+    pointer-events: none;
+    color: #FFCF00;
+}
