@@ -1,7 +1,7 @@
 .bg {
     width: 100vw;
     position: absolute;
-    top: -35vh;
+    top: -45vh;
     display: flex;
     justify-content: center;
     z-index: -1;
@@ -13,4 +13,103 @@
     writing-mode: vertical-lr;
     pointer-events: none;
     color: #FFCF00;
+}
+
+.beers_container {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.beers_row {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.beers_row:first-child {
+    margin-top: 60px;
+}
+
+.beer_container {
+    width: 545px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r_beer_text_container {
+    margin-left: 120px;
+}
+
+.r_beer_text_container {
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+.beer_text_container {
+    width: 300px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.l_beer {
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+.r_beer_img {
+    order: -1;
+}
+
+.beer_title {
+    font-size: 80px;
+    line-height: 64px;
+    font-family: "Druk Cond Super";
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.beer_tagline {
+    font-size: 20px;
+    line-height: 22px;
+    font-family: "Helvetica Neue Bold";
+    margin-top: 0;
+    margin-bottom: 14px;
+
+}
+
+.beer_img {
+    width: 180px;
+}
+
+.beer_button {
+    width: 180px;
+    height: 50px;
+    font-family: "Helvetica Neue Bold";
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.l_beer_button {
+    align-self: flex-end;
+}
+
+.beer_container:nth-child(even) {
+    margin-top: 360px;
+}
+
+.beer_container:nth-child(odd) {
+    margin-top: -60px;
 }

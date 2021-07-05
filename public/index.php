@@ -1,14 +1,19 @@
 <?php
 
 // Call the header
-require_once("../src/header.php");
+require_once("../library/header.php");
 ?>
 
 <!--  main content -->
 <div class="bg">
-    <span class="bg_beer ">BEERS</span>
+    <!-- Is there enough E 🤔 -->
+    <span class="bg_beer ">BEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEERS</span>
+</div>
+<div class="beers_container">
+    <!-- fetched beers from API -->
 </div>
 
+<script src="../src/beers.js"></script>
 <?php
 // Call the footer
-require_once("../src/footer.php");
+require_once("../library/footer.php");
