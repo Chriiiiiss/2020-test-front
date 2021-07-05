@@ -1,0 +1,35 @@
+.cross {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross:before, .cross:after {
+    position: absolute;
+    left: 20px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #000;
+}
+
+.cross:before {
+    transform: rotate(45deg);
+}
+
+.cross:after {
+    transform: rotate(-45deg);
+}
+
+.cross:hover:after {
+    transform: rotate(135deg);
+    transition: all linear 250ms;
+}
+
+.cross:hover:before {
+    transform: rotate(-135deg);
+    transition: all linear 250ms;
+}

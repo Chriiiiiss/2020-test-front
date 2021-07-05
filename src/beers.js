@@ -53,7 +53,7 @@ fetch("http://localhost:8000/public/endpoint.php", {
         beer_button.innerHTML = "see more";
         // Make the button redirect to the modal
         beer_button.onclick = () => {
-            location.href = element.id
+            location.href = "modal.php/";
         }
         beer_text_container.appendChild(beer_button);
 
